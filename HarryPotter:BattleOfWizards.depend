@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1486633251 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/main.cpp
+	"MainEngine.hpp"
+
+1486654399 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/MainEngine.hpp
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<vector>
+	"GameEngine/Sprite.hpp"
+	"GameEngine/GLSLProgram.hpp"
+	"GameEngine/GLTexture.hpp"
+	"GameEngine/Window.hpp"
+	"GameEngine/Camera2D.hpp"
+
+1486634176 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/Sprite.hpp
+	<GL/glew.h>
+	<string>
+	"GLTexture.hpp"
+
+1486634151 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GLTexture.hpp
+	<GL/glew.h>
+
+1486634138 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GLSLProgram.hpp
+	<GL/glew.h>
+	<string>
+
+1424901413 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/Errors.cpp
+	"Errors.hpp"
+	<cstdlib>
+	<iostream>
+	<SDL2/SDL.h>
+
+1424614380 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/Errors.hpp
+	<string>
+
+1486636398 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GLSLProgram.cpp
+	"GLSLProgram.hpp"
+	<vector>
+	"Errors.hpp"
+	"utility.hpp"
+
+1424897692 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/utility.hpp
+	<string>
+
+1424910049 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/ImageLoader.cpp
+	"ImageLoader.hpp"
+	"Errors.hpp"
+	"IOManager.hpp"
+	"picopng.hpp"
+
+1424910051 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/ImageLoader.hpp
+	"GLTexture.hpp"
+	<string>
+
+1486633843 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/IOManager.hpp
+	<vector>
+	<string>
+
+1486633692 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/picopng.hpp
+	<vector>
+
+1486636459 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/IOManager.cpp
+	"IOManager.hpp"
+	<fstream>
+
+1486651981 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/MainEngine.cpp
+	<string>
+	<iostream>
+	"GameEngine/GameEngine.hpp"
+	"MainEngine.hpp"
+
+1486633686 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/picopng.cpp
+	<vector>
+
+1424959086 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/ResourceManager.cpp
+	"ResourceManager.hpp"
+	<iostream>
+
+1424955564 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/ResourceManager.hpp
+	<string>
+	"TextureCache.hpp"
+
+1424954000 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/TextureCache.hpp
+	<map>
+	"GLTexture.hpp"
+
+1486636889 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/Sprite.cpp
+	"Sprite.hpp"
+	<cstddef>
+	"vertex.hpp"
+	"ResourceManager.hpp"
+
+1486634182 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/vertex.hpp
+	<GL/glew.h>
+
+1424958919 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/TextureCache.cpp
+	"TextureCache.hpp"
+	<iostream>
+	"ImageLoader.hpp"
+
+1424899415 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/utility.cpp
+	"utility.hpp"
+	"Errors.hpp"
+	<string>
+	<fstream>
+	<iostream>
+
+1486651395 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Errors.cpp
+	"Errors.hpp"
+	<cstdlib>
+	<iostream>
+	<SDL2/SDL.h>
+
+1486650796 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Errors.hpp
+	<string>
+
+1486651465 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/GLSLProgram.cpp
+	"GLSLProgram.hpp"
+	<vector>
+	"Errors.hpp"
+	"utility.hpp"
+
+1486650813 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/GLSLProgram.hpp
+	<GL/glew.h>
+	<string>
+
+1486650967 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/utility.hpp
+	<string>
+
+1486651479 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/ImageLoader.cpp
+	"ImageLoader.hpp"
+	"Errors.hpp"
+	"IOManager.hpp"
+	"picopng.hpp"
+
+1486650916 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/ImageLoader.hpp
+	"GLTexture.hpp"
+	<string>
+
+1486650830 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/GLTexture.hpp
+	<GL/glew.h>
+
+1486650923 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/IOManager.hpp
+	<vector>
+	<string>
+
+1486650932 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/picopng.hpp
+	<vector>
+
+1486651496 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/IOManager.cpp
+	"IOManager.hpp"
+	<fstream>
+
+1486651507 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/picopng.cpp
+	<vector>
+
+1486651516 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/ResourceManager.cpp
+	"ResourceManager.hpp"
+	<iostream>
+
+1486650938 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/ResourceManager.hpp
+	<string>
+	"TextureCache.hpp"
+
+1486650953 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/TextureCache.hpp
+	<map>
+	"GLTexture.hpp"
+
+1486651526 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Sprite.cpp
+	"Sprite.hpp"
+	<cstddef>
+	"vertex.hpp"
+	"ResourceManager.hpp"
+
+1486650947 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Sprite.hpp
+	<GL/glew.h>
+	<string>
+	"GLTexture.hpp"
+
+1486650988 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/vertex.hpp
+	<GL/glew.h>
+
+1486651537 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/TextureCache.cpp
+	"TextureCache.hpp"
+	<iostream>
+	"ImageLoader.hpp"
+
+1486651546 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/utility.cpp
+	"utility.hpp"
+	"Errors.hpp"
+	<string>
+	<fstream>
+	<iostream>
+
+1486646899 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Window.h
+	<SDL/SDL.h>
+	<GL/glew.h>
+	<string>
+
+1486650998 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Window.hpp
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<string>
+
+1486651624 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Window.cpp
+	"Window.hpp"
+	"Errors.hpp"
+
+1486651917 source:/home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/GameEngine.cpp
+	<SDL/SDL.h>
+	<GL/glew.h>
+
+1486650773 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/GameEngine.hpp
+
+1486654376 /home/sid/Documents/POPL/HarryPotter:BattleOfWizards/GameEngine/Camera2D.hpp
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+

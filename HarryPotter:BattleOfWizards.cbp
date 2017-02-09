@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HarryPotter:BattleOfWizards" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HarryPotter:BattleOfWizards" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HarryPotter:BattleOfWizards" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+			<Add option="-lGL" />
+			<Add option="-lGLU" />
+			<Add option="-lGLEW" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add option="-lGL" />
+			<Add option="-lGLU" />
+			<Add option="-lGLEW" />
+			<Add option="-lSDL" />
+			<Add option="-lSDL2" />
+		</Linker>
+		<Unit filename="GameEngine/Camera2D.cpp" />
+		<Unit filename="GameEngine/Camera2D.hpp" />
+		<Unit filename="GameEngine/Errors.cpp" />
+		<Unit filename="GameEngine/Errors.hpp" />
+		<Unit filename="GameEngine/GLSLProgram.cpp" />
+		<Unit filename="GameEngine/GLSLProgram.hpp" />
+		<Unit filename="GameEngine/GLTexture.hpp" />
+		<Unit filename="GameEngine/GameEngine.cpp" />
+		<Unit filename="GameEngine/GameEngine.hpp" />
+		<Unit filename="GameEngine/IOManager.cpp" />
+		<Unit filename="GameEngine/IOManager.hpp" />
+		<Unit filename="GameEngine/ImageLoader.cpp" />
+		<Unit filename="GameEngine/ImageLoader.hpp" />
+		<Unit filename="GameEngine/ResourceManager.cpp" />
+		<Unit filename="GameEngine/ResourceManager.hpp" />
+		<Unit filename="GameEngine/Sprite.cpp" />
+		<Unit filename="GameEngine/Sprite.hpp" />
+		<Unit filename="GameEngine/TextureCache.cpp" />
+		<Unit filename="GameEngine/TextureCache.hpp" />
+		<Unit filename="GameEngine/Window.cpp" />
+		<Unit filename="GameEngine/Window.hpp" />
+		<Unit filename="GameEngine/picopng.cpp" />
+		<Unit filename="GameEngine/picopng.hpp" />
+		<Unit filename="GameEngine/utility.cpp" />
+		<Unit filename="GameEngine/utility.hpp" />
+		<Unit filename="GameEngine/vertex.hpp" />
+		<Unit filename="MainEngine.cpp" />
+		<Unit filename="MainEngine.hpp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
